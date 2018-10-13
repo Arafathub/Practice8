@@ -1,0 +1,127 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    background: #F5F5F5;
+    line-height: 2.2;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 60px 0px;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Main css */
+
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    color: #333;
+    font-size: 15px;
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+.logo h2 a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #3CA8FE;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.welcome-area {
+    background: #a749ff;
+background: -moz-linear-gradient(45deg, #a749ff 0%, #5a1cff 100%);
+background: -webkit-linear-gradient(45deg, #a749ff 0%,#5a1cff 100%);
+background: linear-gradient(45deg, #a749ff 0%,#5a1cff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a749ff', endColorstr='#5a1cff',GradientType=1 );
+    position: relative;
+    height: 100%;
+}
+.slider-text {
+    padding: 80px 0px;
+}
+.slider-text h2 {
+    color: #fff;
+    font-size: 59px;
+}
+
+.slider-text h5 {
+    color: #ccc;
+}
+
+a.play-video {
+    display: block;
+    color: #fff;
+    border: 2px solid #ccc;
+    padding: 25px 100px;
+    text-transform: uppercase;
+    border-radius: 80px;
+    /* margin-left: 6px; */
+    position: absolute;
+    right: -36px;
+    top: 34%;
+}
+span.lnr {
+    color: #ccc;
+    font-size: 25px;
+}
+
+.single-service h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.single-service p {
+    color: #ccc;
+}
+a.play-video .fa-play {
+    margin-right: 16px;
+}
+.header-top {
+    padding: 23px 0px;
+}
